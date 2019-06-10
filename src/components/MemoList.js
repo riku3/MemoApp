@@ -4,42 +4,42 @@ import { StyleSheet, View, Text, TouchableHighlight } from 'react-native';
 class MemoList extends React.Component {
   render() {
     return (
-        <View style={styles.monoList}>
-          <TouchableHighlight onPress={() => {this.props.navigation.navigate('MemoDetail')}}>
-            <View style={styles.monoListItem}>
-              <Text style={styles.monoTitle}>講座のアイテム</Text>
-              <Text style={styles.monoDate}>2017/10/10</Text>
-            </View>
-          </TouchableHighlight>
+      <View style={styles.monoList}>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.monoListItem}>
+            <Text style={styles.monoTitle}>講座のアイテム</Text>
+            <Text style={styles.monoDate}>2017/10/10</Text>
+          </View>
+        </TouchableHighlight>
 
-          <TouchableHighlight onPress={() => {this.props.navigation.navigate('MemoDetail')}}>
-            <View style={styles.monoListItem}>
-              <Text style={styles.monoTitle}>講座のアイテム</Text>
-              <Text style={styles.monoDate}>2017/10/10</Text>
-            </View>
-          </TouchableHighlight>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.monoListItem}>
+            <Text style={styles.monoTitle}>講座のアイテム</Text>
+            <Text style={styles.monoDate}>2017/10/10</Text>
+          </View>
+        </TouchableHighlight>
 
-          <TouchableHighlight onPress={() => {this.props.navigation.navigate('MemoDetail')}}>
-            <View style={styles.monoListItem}>
-              <Text style={styles.monoTitle}>講座のアイテム</Text>
-              <Text style={styles.monoDate}>2017/10/10</Text>
-            </View>
-          </TouchableHighlight>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.monoListItem}>
+            <Text style={styles.monoTitle}>講座のアイテム</Text>
+            <Text style={styles.monoDate}>2017/10/10</Text>
+          </View>
+        </TouchableHighlight>
 
-          <TouchableHighlight onPress={() => {this.props.navigation.navigate('MemoDetail')}}>
-            <View style={styles.monoListItem}>
-              <Text style={styles.monoTitle}>講座のアイテム</Text>
-              <Text style={styles.monoDate}>2017/10/10</Text>
-            </View>
-          </TouchableHighlight>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.monoListItem}>
+            <Text style={styles.monoTitle}>講座のアイテム</Text>
+            <Text style={styles.monoDate}>2017/10/10</Text>
+          </View>
+        </TouchableHighlight>
 
-          <TouchableHighlight onPress={() => {this.props.navigation.navigate('MemoDetail')}}>
-            <View style={styles.monoListItem}>
-              <Text style={styles.monoTitle}>講座のアイテム</Text>
-              <Text style={styles.monoDate}>2017/10/10</Text>
-            </View>
-          </TouchableHighlight>
-        </View>
+        <TouchableHighlight onPress={() => { this.props.navigation.navigate('MemoDetail'); }}>
+          <View style={styles.monoListItem}>
+            <Text style={styles.monoTitle}>講座のアイテム</Text>
+            <Text style={styles.monoDate}>2017/10/10</Text>
+          </View>
+        </TouchableHighlight>
+      </View>
     );
   }
 }
