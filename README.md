@@ -1,10 +1,11 @@
 # MemoApp
 
-メモリストです。機能は以下です。
-・ログイン（サインイン、サインアップ）
-・メモリスト一覧表示
-・メモ新規作成
-・メモ編集
+メモリストです。
 
 ## デモ
-https://github.com/riku3/MemoApp/blob/master/img/MemoApp_signUp_demo.png
+![SignUp](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_signUp_demo.png)
+![SignIn](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_signIn_demo.png)
+![List](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_memoList_demo.png)
+![Detail](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_detail_demo.png)
+![Edit](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_edit_demo.png)
+![Done](https://github.com/riku3/MemoApp/blob/master/img/MemoApp_done_demo.png)
